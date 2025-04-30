@@ -61,6 +61,7 @@ func getHandler(c *fiber.Ctx, db *sql.DB) error {
 	}
 
 	return c.JSON(books)
+	
 
 }
 
